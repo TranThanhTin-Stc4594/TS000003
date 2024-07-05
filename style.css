@@ -1,0 +1,155 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #9e9696;
+    color: #fff;
+}
+
+#login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20%;
+    height: 100vh;
+    text-align: center;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+.container {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    bottom: 100%;
+    right: 0;
+    left: 0;
+}
+
+.header {
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+}
+.department {
+    border: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    height: 20%;
+}
+
+.factory-image {
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.company-info {
+    flex: 1;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.company-info h1 {
+    font-size: 15px;
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#hide p {
+    text-align: left;
+    color: black;
+    background-color: white;
+    margin: 10px 0;
+} 
+@media (max-width: 1200px) {
+    body {
+        padding: 10px;
+    }
+    .company-info{
+        font-size: 12px;
+    }
+    .company-info h1 { font-size: 12px;
+    }
+    input[type="text"] {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    #hide p {
+        font-size: 16px;
+    }
+    .department{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    input[type="button"] {
+        font-size: 12px;
+        padding: 6px;
+    }
+    body{
+        padding: 10px;
+    }
+    #hide p {
+        font-size: 12px;
+    }
+    .department{
+        font-size: 12px;
+    }
+    .factory-image{
+        display: none;
+        align-items: left;
+    }
+    .image-container{
+        border: none;
+    }
+    .company-info{
+        display: block;
+    }
+}
+@media (max-height:730px) {
+
+.company-info{
+    display: none;
+}}
+input[type="button"] {
+    font-size: 16px;
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: left;
+    padding: 0;
+}
+.logo-image{
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+    padding-left: 10%;
+}
